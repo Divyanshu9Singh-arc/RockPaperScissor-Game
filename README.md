@@ -5,7 +5,7 @@ This is a simple Java-based console game where you play Rock, Paper, Scissors ag
 
 🎮 Features
 
-User vs. Computer gameplay
+<b>User vs. Computer gameplay<b>
 
 *Input validation with friendly error messages
 
