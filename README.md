@@ -1,9 +1,9 @@
-# RockPaperScissor-Game
-🪨📄✂️ Rock-Paper-Scissors Game
+<b># RockPaperScissor-Game<b>
+<b>🪨📄✂️ Rock-Paper-Scissors Game<b>
 
-This is a simple Java-based console game where you play Rock, Paper, Scissors against the computer. The game runs for 5 rounds, keeps track of the score, and announces the overall winner at the end.
+<b>This is a simple Java-based console game where you play Rock, Paper, Scissors against the computer. The game runs for 5 rounds, keeps track of the score, and announces the overall winner at the end.<b>
 
-🎮 Features
+<b>🎮 Features<b>
 
 <b>User vs. Computer gameplay<b>
 
@@ -15,7 +15,7 @@ This is a simple Java-based console game where you play Rock, Paper, Scissors ag
 
 *Clean and readable code structure
 
-🛠️ <b>Technologies Used<b>
+<b>🛠️Technologies Used<b>
 
 *Java
 
