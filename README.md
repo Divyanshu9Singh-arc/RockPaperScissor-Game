@@ -7,18 +7,18 @@ This is a simple Java-based console game where you play Rock, Paper, Scissors ag
 
 User vs. Computer gameplay
 
-Input validation with friendly error messages
+*Input validation with friendly error messages
 
-Score tracking: wins, losses, and draws
+*Score tracking: wins, losses, and draws
 
-Final result announcement
+*Final result announcement
 
-Clean and readable code structure
+*Clean and readable code structure
 
-🛠️ Technologies Used
+🛠️ <b>Technologies Used<b>
 
-Java
+*Java
 
-Scanner (for input)
+*Scanner (for input)
 
-Random (for computer choice)
+*Random (for computer choice)
