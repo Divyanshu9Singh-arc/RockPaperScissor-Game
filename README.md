@@ -21,8 +21,9 @@
 
 *Scanner (for input)
 
-*Random (for computer choice)
+*Random (for computer choice)                             <b>author<b> = <i>Divyanshu Singh<i>
 
 
 
-                                                                                                                                      <b>author<b> = <i>Divyanshu Singh<i>
+
+                                                                                                                                     
