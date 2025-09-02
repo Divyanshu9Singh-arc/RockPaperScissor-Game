@@ -1,0 +1,72 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class RockPaperScissors {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+        
+        //counters
+        int userWins = 0;
+        int computerWins = 0;
+        int draws = 0;
+        
+        //option
+
+        String[] choices = {"rock","paper","scissors"};
+        System.out.println("Welcomes to Rock, paper, Scissors!");
+        System.out.println("You will play 5 rounds.\n");
+
+        for(int round = 1; round<=5; round++){                   //loops
+            System.out.println("Round" +round+":");
+            System.out.print("Enter your choice (rock, paper, or scissors):");
+            String userChoice =scanner.nextLine().toLowerCase();
+        
+
+            //Validate input
+            while(!userChoice.equals("rock") && !userChoice.equals("paper") && !userChoice.equals("scissors")) {
+                System.out.println("Invalid input.Please enter rock,paper,or scissors: ");
+                userChoice = scanner.nextLine().toLowerCase();
+                
+            }
+            // Generate computer choice
+            String computerChoice = choices[random.nextInt(3)];
+            System.out.println("Computer chose:"+computerChoice);
+            
+            //Determine winner
+
+            if (userChoice.equals(computerChoice)) {
+                System.out.println("It's a draw!");
+                draws++;
+            } else if (
+                (userChoice.equals("rock") && computerChoice.equals("scissors")) ||
+                (userChoice.equals("paper") && computerChoice.equals("rock")) ||
+                (userChoice.equals("scissors") && computerChoice.equals("paper"))
+            ) {
+                System.out.println("You win this round!");
+                userWins++;
+            } else {
+                System.out.println("Computer wins this round!");
+                computerWins++;
+            }
+
+            System.out.println();
+        }
+         // Final results
+        System.out.println("Game Over!");
+        System.out.println("You won " + userWins + " times.");
+        System.out.println("Computer won " + computerWins + " times.");
+        System.out.println("Draws: " + draws);
+
+        // Announce overall winner
+        if (userWins > computerWins) {
+            System.out.println("Congratulations! You are the overall winner!");
+        } else if (computerWins > userWins) {
+            System.out.println("Computer wins the game! Better luck next time.");
+        } else {
+            System.out.println("It's a tie overall!");
+        }
+
+        System.out.println();
+    }
+}
